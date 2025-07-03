@@ -9,7 +9,7 @@ export default function Card({
 }>) {
   return (
     <>
-      <div className="mx-auto max-w-[1440px]">
+      <div className="mx-auto max-w-[1440px] px-4 py-8">
         {children}
       </div>
     </>

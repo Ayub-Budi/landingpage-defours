@@ -1,10 +1,11 @@
 import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/layout/Hero";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      Hello Next.js!
+      <Hero />
     </div>
   );
 }
